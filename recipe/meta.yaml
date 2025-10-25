@@ -1,5 +1,5 @@
 {% set name = "ascii_magic" %}
-{% set version = "2.5.0" %}
+{% set version = "2.6.0" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/ascii_magic-{{ version }}.tar.gz
-  sha256: 4c2c0eaa7e1cfb305aef2d821414742d8557e47509790a448a4f99a04790b3d6
+  sha256: b26c417a4a672795522da289cdfc6de4d5303690ea2f4361ae5cf85b284732f8
 
 build:
   number: 0
